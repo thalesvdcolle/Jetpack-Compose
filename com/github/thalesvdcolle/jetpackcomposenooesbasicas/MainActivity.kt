@@ -76,7 +76,6 @@ fun Greeting(name: String) {
 
 @Composable
 fun OnboardingScreen(onContinueClicked: () -> Unit, modifier: Modifier = Modifier) {
-    // TODO: This state should be hoisted
     var shouldShowOnboarding by remember { mutableStateOf(true) }
 
     Column(
